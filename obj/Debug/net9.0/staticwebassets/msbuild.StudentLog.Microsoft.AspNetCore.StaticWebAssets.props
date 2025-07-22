@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5ipweew5fc</Fingerprint>
-      <Integrity>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</Integrity>
+      <Fingerprint>77v6wit8ii</Fingerprint>
+      <Integrity>jaRm1SXMXH+QENFiJoBMzK6RyKhAvY6BdEMLcS70Ttg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\SignIn.js'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>du3n2sr3f5</Fingerprint>
-      <Integrity>NRUCz4c08Z0GobiESivvacsI0gfLm2KQrwgJXT9nSAs=</Integrity>
+      <Fingerprint>e0wpik3v2i</Fingerprint>
+      <Integrity>ToCloUB/H5dsGLQ4HMuEW/DH69lMzFgtGks/8SyFEQU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\signin.html'))</OriginalItemSpec>

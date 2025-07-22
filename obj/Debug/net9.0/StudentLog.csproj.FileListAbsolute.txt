@@ -43,13 +43,11 @@ C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.sourcelink.jso
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\scopedcss\bundle\StudentLog.styles.css
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\wmod9ja9or-iesrzh677i.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\mfoyahlmyb-5ipweew5fc.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\46lrsiek5l-5ipweew5fc.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\ex02swbfzy-x951huvv5w.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\kza3l4mszf-t3uc4jfwct.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\sejf52hyfg-iexj6drtkn.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\j5966ug8ba-xjz02rd3xa.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\5firlarasy-q83ye1grjl.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\pvelby40kh-du3n2sr3f5.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\go9186xz7x-n6tbnllsf8.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\staticwebassets.development.json
@@ -66,3 +64,5 @@ C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\refint\StudentLog.dll
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.pdb
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.genruntimeconfig.cache
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\ref\StudentLog.dll
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\46lrsiek5l-77v6wit8ii.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\pvelby40kh-e0wpik3v2i.gz
