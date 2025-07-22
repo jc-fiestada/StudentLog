@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="../styles/output.css" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-[#2b1a21] text-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-[#4A1C2D] shadow-md">
+        <div class="flex justify-between items-center px-4 py-4 max-w-7xl mx-auto">
+        <div class="flex items-center space-x-3">
+            <h1 class="text-2xl font-bold">Student Log</h1>
+        </div>
+        <h2 class="text-lg font-medium">You are currently in: <span class="text-[#eab0d1]">Home</span></h2>
+        </div>
+    </header>
+
+    <!-- Page Layout -->
+    <div class="flex min-h-screen overflow-hidden">
+
+        <!-- Sidebar -->
+        <aside id="sidebar" class="w-64 transition-width bg-[#3b1525] flex flex-col justify-between py-6 px-2 overflow-hidden">
+        <div>
+            <!-- Sidebar Toggle Button -->
+            <div class="flex justify-end px-1 mb-4">
+            <button id="toggleSidebar" class="text-white text-xl hover:bg-[#4A1C2D] rounded p-2">
+                ☰
+            </button>
+            </div>
+
+            <!-- Sidebar Links -->
+            <nav id="sidebarLinks" class="space-y-2">
+            <a href="home.html" class="flex items-center space-x-2 py-2 px-3 rounded bg-[#4A1C2D] font-semibold">
+                <span>🏠</span><span class="sidebar-text">Home</span>
+            </a>
+            <a href="view.html" class="flex items-center space-x-2 py-2 px-3 rounded hover:bg-[#4A1C2D]">
+                <span>📄</span><span class="sidebar-text">View</span>
+            </a>
+            <a href="insert.html" class="flex items-center space-x-2 py-2 px-3 rounded hover:bg-[#4A1C2D]">
+                <span>➕</span><span class="sidebar-text">Insert</span>
+            </a>
+            </nav>
+        </div>
+
+        <!-- Logout -->
+        <div id="logoutLink" class="mt-4 px-2">
+            <a href="logout.html" class="block py-2 px-4 rounded bg-red-500 text-white hover:bg-red-600 text-center font-medium">
+            Logout
+            </a>
+        </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-grow bg-[#2b1a21] p-8 overflow-auto">
+        <p>This is your home page content. Use this area for forms, tables, cards, or anything else.</p>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#3b1525] text-sm text-center py-4 border-t border-[#5d2b3f]">
+        <span class="text-gray-400">&copy; 2025 MyBrand. All rights reserved.</span>
+    </footer>
+
+    <script src="../services/GeneralServices.js"> </script>
+
+    
+</body>
+</html>
