@@ -41,7 +41,6 @@ C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.csproj.CoreCom
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.sourcelink.json
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\scopedcss\bundle\StudentLog.styles.css
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\mfoyahlmyb-5ipweew5fc.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\ex02swbfzy-x951huvv5w.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\kza3l4mszf-t3uc4jfwct.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\sejf52hyfg-iexj6drtkn.gz
@@ -61,9 +60,10 @@ C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.pdb
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.genruntimeconfig.cache
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\ref\StudentLog.dll
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\pvelby40kh-e0wpik3v2i.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\wmod9ja9or-xne22hq1r8.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\j5966ug8ba-nohoki52sv.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\5firlarasy-hoan3ab322.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\go9186xz7x-c1x1x9bz33.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\qxohcyxqqu-ic5n6lhpct.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\46lrsiek5l-v6hcngn8ay.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\wmod9ja9or-wi3ey1lsus.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\mfoyahlmyb-6l0bv79tgs.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\5firlarasy-yydh5rlvn9.gz

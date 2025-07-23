@@ -59,26 +59,26 @@
             <div class="w-full max-w-xl">
             <h2 class="text-2xl font-bold mb-6 text-[#eab0d1] text-center">Add Student</h2>
 
-            <form class="space-y-6 bg-[#3b1525] p-6 rounded-lg shadow-md">
+            <form id="student-form" class="space-y-6 bg-[#3b1525] p-6 rounded-lg shadow-md">
                 <!-- Name -->
                 <div>
                 <label class="block mb-1 text-sm font-medium text-gray-200">Name</label>
-                <input type="text" class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]" placeholder="Enter full name">
+                <input id="name-txtbox" type="text" class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]" placeholder="Enter full name">
                 </div>
 
                 <!-- Sex -->
                 <div>
                 <label class="block mb-1 text-sm font-medium text-gray-200">Sex</label>
-                <select class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]">    
-                    <option>Male</option>
-                    <option>Female</option>
+                <select id="sex-selection" class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]">    
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
                 </select>
                 </div>
 
                 <!-- Date of Birth -->
                 <div>
                 <label class="block mb-1 text-sm font-medium text-gray-200">Date of Birth</label>
-                <input type="date" class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]">
+                <input id="birth-date" type="date" class="w-full px-4 py-2 rounded bg-[#2b1a21] text-white border border-[#5d2b3f] focus:outline-none focus:ring-2 focus:ring-[#eab0d1]">
                 </div>
 
                 <!-- Submit -->
@@ -100,6 +100,7 @@
 
     <script src="../services/IsAuthorized.js"> </script>
     <script src="../services/GeneralServices.js"> </script>
+    <script src="../services/InsertServices.js"> </script>
 
     
 </body>

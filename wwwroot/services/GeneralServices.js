@@ -24,9 +24,3 @@ toggleBtn.addEventListener('click', () => {
         logout.classList.remove('hidden');
     }
 });
-
-
-// 
-
-
-

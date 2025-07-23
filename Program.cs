@@ -13,6 +13,52 @@ app.UseSession();
 app.UseRouting();
 app.UseStaticFiles();
 
+// INSERT STUDENT TO DB
+app.MapPost("/insert-student", async (HttpContext context) =>
+{
+    Student? student;
+
+    try
+    {
+        student = await context.Request.ReadFromJsonAsync<Student>();
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("[DEBUG] malformed json 1");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Corrupted or malformed json has been detected from client"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    if (student?.Name is null || student.Sex is null || student.BirthDate is null)
+    {
+        Console.WriteLine("[DEBUG] malformed json 2");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Corrupted or malformed json has been detected from client"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    Console.WriteLine($"Name: {student.Name}, Date: {student.BirthDate}, Sex: {student.Sex}");
+
+    Console.WriteLine("[DEBUG] Success");
+    ResponseAPI<string> ok = new ResponseAPI<string>
+    {
+        Message = "Success"
+    };
+
+    return Results.Json(ok, statusCode: 200);
+});
+
+
+// AUTHENTICATE ADMIN ACTICE SESSION
+
+
 app.MapGet("/validate-admin-session", (HttpContext context) =>
 {
     int? inSession = context.Session.GetInt32("isInSession");
@@ -51,6 +97,8 @@ app.MapGet("/validate-admin-session", (HttpContext context) =>
     return Results.Json(ok, statusCode: 200);
 });
 
+
+// SIGN IN ATTEMPT
 
 
 app.MapPost("/validate-signin", async (HttpContext context) =>
