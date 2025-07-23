@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iesrzh677i</Fingerprint>
-      <Integrity>is9GVWsHlL4yGRVUl5EounTq5tA01uVmkeULv57rJHc=</Integrity>
+      <Fingerprint>xne22hq1r8</Fingerprint>
+      <Integrity>Q0PllUiJXXeIWqbvcAk8IaAXZYQPAPlDLUkXfVN3v7o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\GeneralServices.js'))</OriginalItemSpec>
@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\InsertServices.js'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\IsAuthorized.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudentLog</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudentLog</BasePath>
+      <RelativePath>services/IsAuthorized.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ic5n6lhpct</Fingerprint>
+      <Integrity>Lvux2JLeW/KbOXSJSH0NYAatIDOHd37/FhonCQgOa7Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\IsAuthorized.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\SignIn.js'))">
       <SourceType>Package</SourceType>
       <SourceId>StudentLog</SourceId>
@@ -48,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>77v6wit8ii</Fingerprint>
-      <Integrity>jaRm1SXMXH+QENFiJoBMzK6RyKhAvY6BdEMLcS70Ttg=</Integrity>
+      <Fingerprint>v6hcngn8ay</Fingerprint>
+      <Integrity>Bwnv8hPKdIdqX1o7czUUdH0GL2KVmn9Mx8txxREORbE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\SignIn.js'))</OriginalItemSpec>
@@ -120,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xjz02rd3xa</Fingerprint>
-      <Integrity>/dEKr2Yw2BZaCUlMy+q87kvWpqFbxjn8aRhvYe8xVfE=</Integrity>
+      <Fingerprint>nohoki52sv</Fingerprint>
+      <Integrity>h1tBQSkJjxU7iWeOpSx8BnH0302B6pSXsIXWv7OGDdc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\home.html'))</OriginalItemSpec>
@@ -138,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>q83ye1grjl</Fingerprint>
-      <Integrity>FomtBOhBQyrT8d33nERNgKIM0sDwNkUvY4ODjHMLYEY=</Integrity>
+      <Fingerprint>hoan3ab322</Fingerprint>
+      <Integrity>L68tfJDCTh+UcdGPZ1xpIV5m278hNUaJiEpkcNAY2Xo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\insert.html'))</OriginalItemSpec>
@@ -174,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n6tbnllsf8</Fingerprint>
-      <Integrity>f6OPkc4Okixz9D2x6q1/IMwmQYPAYLmKi5PZTWFC8Wg=</Integrity>
+      <Fingerprint>c1x1x9bz33</Fingerprint>
+      <Integrity>gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\view.html'))</OriginalItemSpec>

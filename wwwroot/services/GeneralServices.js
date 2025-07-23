@@ -1,5 +1,3 @@
-
-
 // Sidebar animation - hide/unhide
 
 const sidebar = document.getElementById('sidebar');
@@ -27,6 +25,8 @@ toggleBtn.addEventListener('click', () => {
     }
 });
 
+
+// 
 
 
 

@@ -31,7 +31,7 @@ namespace StudentLog.Services
             }
         }
 
-        public bool ValidateSignIn(string input_password, string input_username, out bool isValidationSuccess)
+        public bool ValidateSignIn(string input_username, string input_password, out bool isValidationSuccess)
         {
             string? password = null;
             string? username = null;
@@ -50,8 +50,8 @@ namespace StudentLog.Services
                         {
                             while (reader.Read())
                             {
-                                password = (string)reader["username"];
-                                username = (string)reader["password"];
+                                password = (string)reader["password"];
+                                username = (string)reader["username"];
                             }
                         }
                     }
@@ -70,9 +70,13 @@ namespace StudentLog.Services
                 return false;
             }
 
+            Console.WriteLine(username + password);
+            Console.WriteLine(input_password + input_username);
+
 
             if (input_username != username || !BCrypt.Net.BCrypt.Verify(input_password, password))
             {
+                Console.WriteLine();
                 isValidationSuccess = true;
                 return false;
             }
@@ -81,15 +85,6 @@ namespace StudentLog.Services
             return true;
 
         }
-
-
-
-
-
-
-
-
-
 
         /* 
         

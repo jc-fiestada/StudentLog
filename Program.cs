@@ -1,12 +1,55 @@
 using StudentLog.Services;
 using StudentLog.Models;
 
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSession();
+builder.Services.AddDistributedMemoryCache();
+
 
 
 var app = builder.Build();
+app.UseSession();
 app.UseRouting();
 app.UseStaticFiles();
+
+app.MapGet("/validate-admin-session", (HttpContext context) =>
+{
+    int? inSession = context.Session.GetInt32("isInSession");
+
+    if (inSession is null)
+    {
+        ResponseAPI<string> response = new ResponseAPI<string>()
+        {
+            Message = "Unauthorized Access Detected"
+        };
+
+        Console.WriteLine("[DEBUG] unauthorized access 1");
+
+        return Results.Json(response, statusCode: 401);
+    }
+
+    if (inSession != 1)
+    {
+        ResponseAPI<string> response = new ResponseAPI<string>()
+        {
+            Message = "Unauthorized Access Detected"
+        };
+
+        Console.WriteLine("[DEBUG] unauthorized access 2");
+
+        return Results.Json(response, statusCode: 401);
+    }
+
+    ResponseAPI<string> ok = new ResponseAPI<string>()
+    {
+        Message = "Authorized"
+    };
+
+    Console.WriteLine("[DEBUG] authorized");
+
+    return Results.Json(ok, statusCode: 200);
+});
 
 
 
@@ -52,11 +95,11 @@ app.MapPost("/validate-signin", async (HttpContext context) =>
 
         ResponseAPI<List<string>> error = new ResponseAPI<List<string>>
         {
-            Message = "Something went wrong from the server",
+            Message = "Invalid User Input",
             Data = admin.ErrorList()
         };
 
-        return Results.Json(error, statusCode: 401);
+        return Results.Json(error, statusCode: 422);
     }
 
     AdminDbServices service = new AdminDbServices();
@@ -87,7 +130,7 @@ app.MapPost("/validate-signin", async (HttpContext context) =>
 
         ResponseAPI<List<string>> error = new ResponseAPI<List<string>>
         {
-            Message = "SignIn Unauthorized, Invalid Username or Password"
+            Message = "Sign-In Unauthorized, Invalid Username or Password"
         };
 
         return Results.Json(error, statusCode: 401);
@@ -99,6 +142,8 @@ app.MapPost("/validate-signin", async (HttpContext context) =>
     {
         Message = "Success"
     };
+
+    context.Session.SetInt32("isInSession", 1);
 
     return Results.Json(ok, statusCode: 200);
 

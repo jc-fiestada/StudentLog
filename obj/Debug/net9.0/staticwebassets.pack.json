@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\services\\InsertServices.js"
     },
     {
+      "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\IsAuthorized.js",
+      "PackagePath": "staticwebassets\\services\\IsAuthorized.js"
+    },
+    {
       "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\SignIn.js",
       "PackagePath": "staticwebassets\\services\\SignIn.js"
     },
