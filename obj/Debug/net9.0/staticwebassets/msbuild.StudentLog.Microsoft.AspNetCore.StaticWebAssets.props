@@ -90,23 +90,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\Toast.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\Modals.js'))">
       <SourceType>Package</SourceType>
       <SourceId>StudentLog</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/StudentLog</BasePath>
-      <RelativePath>services/ViewServices.js</RelativePath>
+      <RelativePath>services/ViewServices/Modals.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t3uc4jfwct</Fingerprint>
-      <Integrity>acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=</Integrity>
+      <Fingerprint>s9sextd1xz</Fingerprint>
+      <Integrity>YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\Modals.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\ViewStudent.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudentLog</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudentLog</BasePath>
+      <RelativePath>services/ViewServices/ViewStudent.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>08d5rrjnw1</Fingerprint>
+      <Integrity>MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\ViewStudent.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\output.css'))">
       <SourceType>Package</SourceType>
@@ -192,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c1x1x9bz33</Fingerprint>
-      <Integrity>gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=</Integrity>
+      <Fingerprint>1xy9pqki89</Fingerprint>
+      <Integrity>BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\view.html'))</OriginalItemSpec>

@@ -21,8 +21,12 @@
       "PackagePath": "staticwebassets\\services\\Toast.js"
     },
     {
-      "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js",
-      "PackagePath": "staticwebassets\\services\\ViewServices.js"
+      "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js",
+      "PackagePath": "staticwebassets\\services\\ViewServices\\Modals.js"
+    },
+    {
+      "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js",
+      "PackagePath": "staticwebassets\\services\\ViewServices\\ViewStudent.js"
     },
     {
       "Id": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\styles\\output.css",

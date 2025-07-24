@@ -13,6 +13,93 @@ app.UseSession();
 app.UseRouting();
 app.UseStaticFiles();
 
+
+
+// deletes specific student
+
+// feels like crappy code, i rushed this part
+app.MapPost("/delete-student", async (HttpContext context) =>
+{
+    string? name;
+
+    try
+    {
+        DeleteRequestName? RequestName = await context.Request.ReadFromJsonAsync<DeleteRequestName>();
+        name = RequestName?.Name;
+    }
+    catch (Exception)
+    {
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Malformed json detected"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    if (name is null)
+    {
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Malformed json detected"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    bool IsDeleted;
+
+    try
+    {
+        StudentDbServices services = new StudentDbServices();
+
+        services.DeleteStudent(name, out IsDeleted);
+    }
+    catch (Exception)
+    {
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Issu has been detected on servers database"
+        };
+
+        return Results.Json(error, statusCode: 500);
+    }
+
+
+    if (!IsDeleted)
+    {
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Student has not been found on the system"
+        };
+
+        return Results.Json(error, statusCode: 422);
+    }
+    
+    ResponseAPI<string> ok = new ResponseAPI<string>
+    {
+        Message = "Student has been successfully deleted"
+    };
+
+    return Results.Json(ok, statusCode: 200);
+
+});
+
+app.MapGet("/select-all-student", (HttpContext context) =>
+{
+    StudentDbServices services = new StudentDbServices();
+    List<Student> student = services.ViewStudent();
+
+    ResponseAPI<List<Student>> response = new ResponseAPI<List<Student>>
+    {
+        Message = "current student database data",
+        Data = student
+    };
+
+    return Results.Json(response, statusCode: 200);
+
+});
+
 // INSERT STUDENT TO DB
 app.MapPost("/insert-student", async (HttpContext context) =>
 {
@@ -232,3 +319,6 @@ app.MapPost("/validate-signin", async (HttpContext context) =>
 });
 
 app.Run();
+
+
+record DeleteRequestName(string Name);

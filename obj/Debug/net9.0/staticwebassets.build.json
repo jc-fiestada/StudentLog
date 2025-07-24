@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LCGJBIgGz1QJrgw6DGEdTo27IoF/GXw+37Bm4kKDxNY=",
+  "Hash": "zDMARZ15+Tcesqa/zPvDbRZy3WIywpNNrOPUlLvh4wE=",
   "Source": "StudentLog",
   "BasePath": "_content/StudentLog",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\SignIn.js"
+    },
+    {
+      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\4myvyb24be-s9sextd1xz.gz",
+      "SourceId": "StudentLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StudentLog",
+      "RelativePath": "services/ViewServices/Modals#[.{fingerprint=s9sextd1xz}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jfi31uj47t",
+      "Integrity": "8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js"
     },
     {
       "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\5firlarasy-cenm7vsqzb.gz",
@@ -80,12 +101,12 @@
       "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\Toast.js"
     },
     {
-      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-c1x1x9bz33.gz",
+      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-1xy9pqki89.gz",
       "SourceId": "StudentLog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/StudentLog",
-      "RelativePath": "tabs/view#[.{fingerprint=c1x1x9bz33}]?.html.gz",
+      "RelativePath": "tabs/view#[.{fingerprint=1xy9pqki89}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -94,8 +115,8 @@
       "RelatedAsset": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\tabs\\view.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cc725x23om",
-      "Integrity": "rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ=",
+      "Fingerprint": "5dmyqm0rlt",
+      "Integrity": "RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\tabs\\view.html"
@@ -122,27 +143,6 @@
       "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\tabs\\home.html"
     },
     {
-      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\kza3l4mszf-t3uc4jfwct.gz",
-      "SourceId": "StudentLog",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/StudentLog",
-      "RelativePath": "services/ViewServices#[.{fingerprint=t3uc4jfwct}]?.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "svvasg9p9i",
-      "Integrity": "GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js"
-    },
-    {
       "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\mfoyahlmyb-6nmw43l6mc.gz",
       "SourceId": "StudentLog",
       "SourceType": "Discovered",
@@ -162,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\InsertServices.js"
+    },
+    {
+      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\ml5jmiwmxe-08d5rrjnw1.gz",
+      "SourceId": "StudentLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/StudentLog",
+      "RelativePath": "services/ViewServices/ViewStudent#[.{fingerprint=08d5rrjnw1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gcpn0c9vpk",
+      "Integrity": "EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js"
     },
     {
       "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\pvelby40kh-ayquvu5myv.gz",
@@ -353,12 +374,12 @@
       "OriginalItemSpec": "wwwroot\\services\\Toast.js"
     },
     {
-      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js",
+      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js",
       "SourceId": "StudentLog",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\",
       "BasePath": "_content/StudentLog",
-      "RelativePath": "services/ViewServices#[.{fingerprint}]?.js",
+      "RelativePath": "services/ViewServices/Modals#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -367,11 +388,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t3uc4jfwct",
-      "Integrity": "acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=",
+      "Fingerprint": "s9sextd1xz",
+      "Integrity": "YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\services\\ViewServices.js"
+      "OriginalItemSpec": "wwwroot\\services\\ViewServices\\Modals.js"
+    },
+    {
+      "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js",
+      "SourceId": "StudentLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\",
+      "BasePath": "_content/StudentLog",
+      "RelativePath": "services/ViewServices/ViewStudent#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "08d5rrjnw1",
+      "Integrity": "MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\services\\ViewServices\\ViewStudent.js"
     },
     {
       "Identity": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\styles\\output.css",
@@ -472,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c1x1x9bz33",
-      "Integrity": "gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=",
+      "Fingerprint": "1xy9pqki89",
+      "Integrity": "BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\tabs\\view.html"
@@ -1971,13 +2013,13 @@
       ]
     },
     {
-      "Route": "services/ViewServices.js",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\kza3l4mszf-t3uc4jfwct.gz",
+      "Route": "services/ViewServices/Modals.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\4myvyb24be-s9sextd1xz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003533568905"
+          "Quality": "0.003412969283"
         }
       ],
       "ResponseHeaders": [
@@ -1987,15 +2029,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "282"
+          "Value": "292"
         },
         {
           "Name": "ETag",
-          "Value": "\"GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI=\""
+          "Value": "\"8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2015,19 +2057,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=\""
+          "Value": "W/\"YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU="
+          "Value": "sha256-YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g="
         }
       ]
     },
     {
-      "Route": "services/ViewServices.js",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js",
+      "Route": "services/ViewServices/Modals.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2036,7 +2078,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "772"
+          "Value": "906"
         },
         {
           "Name": "Content-Type",
@@ -2044,11 +2086,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=\""
+          "Value": "\"YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2058,13 +2100,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU="
+          "Value": "sha256-YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g="
         }
       ]
     },
     {
-      "Route": "services/ViewServices.js.gz",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\kza3l4mszf-t3uc4jfwct.gz",
+      "Route": "services/ViewServices/Modals.js.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\4myvyb24be-s9sextd1xz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2073,7 +2115,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "282"
+          "Value": "292"
         },
         {
           "Name": "Content-Type",
@@ -2081,11 +2123,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI=\""
+          "Value": "\"8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2103,18 +2145,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI="
+          "Value": "sha256-8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs="
         }
       ]
     },
     {
-      "Route": "services/ViewServices.t3uc4jfwct.js",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\kza3l4mszf-t3uc4jfwct.gz",
+      "Route": "services/ViewServices/Modals.s9sextd1xz.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\4myvyb24be-s9sextd1xz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003533568905"
+          "Quality": "0.003412969283"
         }
       ],
       "ResponseHeaders": [
@@ -2124,15 +2166,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "282"
+          "Value": "292"
         },
         {
           "Name": "ETag",
-          "Value": "\"GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI=\""
+          "Value": "\"8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2152,27 +2194,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=\""
+          "Value": "W/\"YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t3uc4jfwct"
+          "Value": "s9sextd1xz"
         },
         {
           "Name": "label",
-          "Value": "services/ViewServices.js"
+          "Value": "services/ViewServices/Modals.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU="
+          "Value": "sha256-YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g="
         }
       ]
     },
     {
-      "Route": "services/ViewServices.t3uc4jfwct.js",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices.js",
+      "Route": "services/ViewServices/Modals.s9sextd1xz.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\Modals.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2181,7 +2223,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "772"
+          "Value": "906"
         },
         {
           "Name": "Content-Type",
@@ -2189,11 +2231,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU=\""
+          "Value": "\"YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2203,21 +2245,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t3uc4jfwct"
+          "Value": "s9sextd1xz"
         },
         {
           "Name": "label",
-          "Value": "services/ViewServices.js"
+          "Value": "services/ViewServices/Modals.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-acPD2wbwSFRZzuiEcCM/8q++bcfeUi4tYtIclIBHKIU="
+          "Value": "sha256-YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g="
         }
       ]
     },
     {
-      "Route": "services/ViewServices.t3uc4jfwct.js.gz",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\kza3l4mszf-t3uc4jfwct.gz",
+      "Route": "services/ViewServices/Modals.s9sextd1xz.js.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\4myvyb24be-s9sextd1xz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,7 +2268,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "282"
+          "Value": "292"
         },
         {
           "Name": "Content-Type",
@@ -2234,11 +2276,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI=\""
+          "Value": "\"8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Jul 2025 08:55:22 GMT"
+          "Value": "Thu, 24 Jul 2025 12:32:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2256,15 +2298,313 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t3uc4jfwct"
+          "Value": "s9sextd1xz"
         },
         {
           "Name": "label",
-          "Value": "services/ViewServices.js.gz"
+          "Value": "services/ViewServices/Modals.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GJRz2kAcFFbF8rkHN3YNahpjZtag2wjsMs7928EKhxI="
+          "Value": "sha256-8Xbiv/6VpcuyQSBsrbec5t7JUdM8vdf9qKh9bIF6JEs="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.08d5rrjnw1.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\ml5jmiwmxe-08d5rrjnw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001109877913"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "08d5rrjnw1"
+        },
+        {
+          "Name": "label",
+          "Value": "services/ViewServices/ViewStudent.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.08d5rrjnw1.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "08d5rrjnw1"
+        },
+        {
+          "Name": "label",
+          "Value": "services/ViewServices/ViewStudent.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.08d5rrjnw1.js.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\ml5jmiwmxe-08d5rrjnw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "08d5rrjnw1"
+        },
+        {
+          "Name": "label",
+          "Value": "services/ViewServices/ViewStudent.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\ml5jmiwmxe-08d5rrjnw1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001109877913"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.js",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\services\\ViewServices\\ViewStudent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE="
+        }
+      ]
+    },
+    {
+      "Route": "services/ViewServices/ViewStudent.js.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\ml5jmiwmxe-08d5rrjnw1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 12:33:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EOBqkLYe25UauB1f4/omK+u1hxR4yOkGKAhTpv3ZU/0="
         }
       ]
     },
@@ -3461,13 +3801,13 @@
       ]
     },
     {
-      "Route": "tabs/view.c1x1x9bz33.html",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-c1x1x9bz33.gz",
+      "Route": "tabs/view.1xy9pqki89.html",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-1xy9pqki89.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000576368876"
+          "Quality": "0.000577367206"
         }
       ],
       "ResponseHeaders": [
@@ -3477,15 +3817,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1734"
+          "Value": "1731"
         },
         {
           "Name": "ETag",
-          "Value": "\"rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ=\""
+          "Value": "\"RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3505,13 +3845,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=\""
+          "Value": "W/\"BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c1x1x9bz33"
+          "Value": "1xy9pqki89"
         },
         {
           "Name": "label",
@@ -3519,12 +3859,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0="
+          "Value": "sha256-BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I="
         }
       ]
     },
     {
-      "Route": "tabs/view.c1x1x9bz33.html",
+      "Route": "tabs/view.1xy9pqki89.html",
       "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\wwwroot\\tabs\\view.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3534,7 +3874,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6871"
+          "Value": "6254"
         },
         {
           "Name": "Content-Type",
@@ -3542,11 +3882,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=\""
+          "Value": "\"BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3556,7 +3896,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c1x1x9bz33"
+          "Value": "1xy9pqki89"
         },
         {
           "Name": "label",
@@ -3564,13 +3904,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0="
+          "Value": "sha256-BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I="
         }
       ]
     },
     {
-      "Route": "tabs/view.c1x1x9bz33.html.gz",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-c1x1x9bz33.gz",
+      "Route": "tabs/view.1xy9pqki89.html.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-1xy9pqki89.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3579,7 +3919,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1734"
+          "Value": "1731"
         },
         {
           "Name": "Content-Type",
@@ -3587,11 +3927,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ=\""
+          "Value": "\"RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3949,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c1x1x9bz33"
+          "Value": "1xy9pqki89"
         },
         {
           "Name": "label",
@@ -3617,18 +3957,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ="
+          "Value": "sha256-RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw="
         }
       ]
     },
     {
       "Route": "tabs/view.html",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-c1x1x9bz33.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-1xy9pqki89.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000576368876"
+          "Quality": "0.000577367206"
         }
       ],
       "ResponseHeaders": [
@@ -3638,15 +3978,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1734"
+          "Value": "1731"
         },
         {
           "Name": "ETag",
-          "Value": "\"rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ=\""
+          "Value": "\"RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3666,13 +4006,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=\""
+          "Value": "W/\"BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0="
+          "Value": "sha256-BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I="
         }
       ]
     },
@@ -3687,7 +4027,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6871"
+          "Value": "6254"
         },
         {
           "Name": "Content-Type",
@@ -3695,11 +4035,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0=\""
+          "Value": "\"BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3709,13 +4049,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gFIW/3irLf1q/27NiAlMVlPnR1BerNrnRY81pIzt2Y0="
+          "Value": "sha256-BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I="
         }
       ]
     },
     {
       "Route": "tabs/view.html.gz",
-      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-c1x1x9bz33.gz",
+      "AssetFile": "C:\\Users\\johnc\\WebProjects\\StudentLog\\obj\\Debug\\net9.0\\compressed\\go9186xz7x-1xy9pqki89.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3724,7 +4064,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1734"
+          "Value": "1731"
         },
         {
           "Name": "Content-Type",
@@ -3732,11 +4072,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ=\""
+          "Value": "\"RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 06:07:19 GMT"
+          "Value": "Thu, 24 Jul 2025 10:27:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3754,7 +4094,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rLrphc4v/AdvF5XU09TXL4UADteAW+d9vZS1lSTG3PQ="
+          "Value": "sha256-RyhptzvaGIanVqom6ecfHczid7GRyewcSfnZIa0V7Fw="
         }
       ]
     }
