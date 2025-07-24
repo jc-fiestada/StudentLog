@@ -59,11 +59,11 @@ C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\refint\StudentLog.dll
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.pdb
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\StudentLog.genruntimeconfig.cache
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\ref\StudentLog.dll
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\pvelby40kh-e0wpik3v2i.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\j5966ug8ba-nohoki52sv.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\go9186xz7x-c1x1x9bz33.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\qxohcyxqqu-ic5n6lhpct.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\46lrsiek5l-v6hcngn8ay.gz
 C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\wmod9ja9or-wi3ey1lsus.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\mfoyahlmyb-6l0bv79tgs.gz
-C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\5firlarasy-yydh5rlvn9.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\j5966ug8ba-t7gyk9b97a.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\5firlarasy-cenm7vsqzb.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\pvelby40kh-ayquvu5myv.gz
+C:\Users\johnc\WebProjects\StudentLog\obj\Debug\net9.0\compressed\mfoyahlmyb-6nmw43l6mc.gz

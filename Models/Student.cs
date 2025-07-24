@@ -35,11 +35,11 @@ namespace StudentLog.Models
             {
                 errors.Add("Name should not exceed lower than 5 characters");
             }
-            else if (Name.Length > 100)
+            else if (Name.Length > 60)
             {
-                errors.Add("Name should not exceed more than 100 characters");
+                errors.Add("Name should not exceed more than 60 characters");
             }
-            else if (pattern.IsMatch(Name))
+            else if (!pattern.IsMatch(Name))
             {
                 errors.Add("Name should only contain letters and spaces");
             }
@@ -50,7 +50,7 @@ namespace StudentLog.Models
             {
                 errors.Add("Sex should not be empty");
             }
-            else if (Sex.Trim().ToUpper() != "MALE" || Sex.Trim().ToUpper() != "FEMALE")
+            else if (Sex.Trim().ToUpper() != "MALE" && Sex.Trim().ToUpper() != "FEMALE")
             {
                 errors.Add("Invalid Sex value, it should only be either \"Male\" or \"Female\"");
             }
@@ -58,7 +58,7 @@ namespace StudentLog.Models
             DateOnly converted_date;
 
             DateOnly MinimumDate = DateOnly.Parse("1970-01-01");
-            DateOnly MaximuDate = DateOnly.Parse("2015-01-01");
+            DateOnly MaximumDate = DateOnly.Parse("2015-01-01");
 
             // Birth Date Validation
             if (string.IsNullOrWhiteSpace(BirthDate))
@@ -70,9 +70,9 @@ namespace StudentLog.Models
                 errors.Add("Malformed date has been detected");
             }
             else if (converted_date < MinimumDate) {
-                errors.Add("Student must have a birth of date after 1970-01-01 to be accepted");
+                errors.Add("Student must have a birth of date of 1970-01-01 onwards to be accepted");
             }
-            else if (converted_date > MaximuDate) {
+            else if (converted_date >= MaximumDate) {
                 errors.Add("Student must have a birth of date before 2015-01-01 to be accepted");
             }
 

@@ -18,6 +18,7 @@ app.MapPost("/insert-student", async (HttpContext context) =>
 {
     Student? student;
 
+    // checks if json was able to be stored in student object, if not it might be corrupted
     try
     {
         student = await context.Request.ReadFromJsonAsync<Student>();
@@ -33,19 +34,52 @@ app.MapPost("/insert-student", async (HttpContext context) =>
         return Results.Json(error, statusCode: 400);
     }
 
+    // if null values have been detected, json must be missing a value or incomplete
+
     if (student?.Name is null || student.Sex is null || student.BirthDate is null)
     {
         Console.WriteLine("[DEBUG] malformed json 2");
         ResponseAPI<string> error = new ResponseAPI<string>
         {
-            Message = "Corrupted or malformed json has been detected from client"
+            Message = "Corrupted, malformed, or a missing value from json has been detected from client"
         };
 
         return Results.Json(error, statusCode: 400);
     }
 
-    Console.WriteLine($"Name: {student.Name}, Date: {student.BirthDate}, Sex: {student.Sex}");
+    // checks if values are acceptable for validation
 
+    if (student.ErrorList().Count() != 0)
+    {
+        Console.WriteLine("[DEBUG] invalid user input");
+        ResponseAPI<List<string>> error = new ResponseAPI<List<string>>
+        {
+            Message = "Invalid user input has been detected",
+            Data = student.ErrorList()
+        };
+
+        return Results.Json(error, statusCode: 422);
+    }
+
+    StudentDbServices service = new StudentDbServices();
+
+    // If db related issue suddenly happens
+    try
+    {
+        service.InsertStudent(student);
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("[DEBUG] db error");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "DB related error"
+        };
+
+        return Results.Json(error, statusCode: 500);
+    }
+
+    // success bruh
     Console.WriteLine("[DEBUG] Success");
     ResponseAPI<string> ok = new ResponseAPI<string>
     {

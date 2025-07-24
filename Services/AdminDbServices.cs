@@ -4,7 +4,7 @@ using BCrypt.Net;
 namespace StudentLog.Services
 {
     // use this to avoid filename confusion
-    class Filename
+    class AdminFilename
     {
         public static string filename { get; } = "Admin.db";
     }
@@ -13,7 +13,7 @@ namespace StudentLog.Services
     {
         public void ValidateDB()
         {
-            using (var connection = new SqliteConnection($"Data Source={Filename.filename}"))
+            using (var connection = new SqliteConnection($"Data Source={AdminFilename.filename}"))
             {
                 connection.Open();
 
@@ -38,7 +38,7 @@ namespace StudentLog.Services
 
             try
             {
-                using (var connection = new SqliteConnection($"Data Source={Filename.filename}"))
+                using (var connection = new SqliteConnection($"Data Source={AdminFilename.filename}"))
                 {
                     connection.Open();
 
@@ -99,7 +99,7 @@ namespace StudentLog.Services
             string password = BCrypt.Net.BCrypt.HashPassword(pass);
             
 
-            using (var connection = new SqliteConnection($"Data Source={Filename.filename}"))
+            using (var connection = new SqliteConnection($"Data Source={AdminFilename.filename}"))
             {
                 connection.Open();
 

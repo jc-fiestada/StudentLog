@@ -1,3 +1,5 @@
+import * as toastService from "./Toast.js";
+
 document.getElementById("student-form").addEventListener("submit", async (e) => {
     e.preventDefault();
 
@@ -17,5 +19,20 @@ document.getElementById("student-form").addEventListener("submit", async (e) => 
     
     const responseData = await response.json();
 
+    e.target.reset();
+
+    if (response.status === 422){
+        responseData.data.forEach(error => {
+            toastService.showToast("error", error);
+        });
+        return;
+    }
+
+    if(response.status === 200){
+        toastService.showToast("success", responseData.message);
+        return;
+    }
+
+    toastService.showToast("error", responseData.message);
     
 });
