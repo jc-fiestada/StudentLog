@@ -1,13 +1,56 @@
 import * as toastService from "./../Toast.js";
 
 const deleteModal = document.getElementById("deleteModal");
+const updateModal = document.getElementById("updateModal");
+const studentContainer = document.getElementById("student-data-container");
 
 function closeDeleteModal() {
     deleteModal.classList.add("hidden");
     deleteModal.dataset.deleteName = "";
 }
 
-const studentContainer = document.getElementById("student-data-container");
+function closeUpdateModal() {
+    updateModal.classList.add("hidden");
+    updateModal.dataset.updateName = "";
+}
+
+document.getElementById("update-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const currentUser = document.getElementById("updateModal").dataset.updateName;
+    const updateSex = document.getElementById("update-sex").value;
+    const updateBirthDate = document.getElementById("update-birth-date").value;
+
+    const response = await fetch("/update-student", {
+        method : "POST",
+        credentials : "include",
+        headers : {"Content-Type" : "application/json"},
+        body : JSON.stringify({
+            name : currentUser,
+            sex : updateSex,
+            birthDate : updateBirthDate
+        })})
+
+    const responseData = await response.json();
+
+    if(response.status === 200){
+        toastService.showToast("success", responseData.message);
+        closeUpdateModal();
+        refreshList();
+        return;
+    }   
+
+    if(response.status === 422){
+        responseData.data.forEach(error => {
+            toastService.showToast("error", error)
+        });
+        closeUpdateModal();
+        return;
+    }
+
+    toastService.showToast("error", responseData.message);
+    closeUpdateModal();
+});
 
 async function refreshList(){
 

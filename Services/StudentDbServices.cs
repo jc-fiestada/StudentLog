@@ -61,7 +61,7 @@ namespace StudentLog.Services
             }
         }
 
-        public void UpdateStudent(Student student)
+        public void UpdateStudent(Student student, out bool IsUpdated)
         {
             using (var connection = new SqliteConnection($"Data Source={StudentFilename.filename}"))
             {
@@ -77,10 +77,19 @@ namespace StudentLog.Services
                     ";
 
                     command.Parameters.AddWithValue("@name", student.Name);
-                    command.Parameters.AddWithValue("sex", student.Sex);
-                    command.Parameters.AddWithValue("birth_date", student.BirthDate);
+                    command.Parameters.AddWithValue("@sex", student.Sex);
+                    command.Parameters.AddWithValue("@birth_date", student.BirthDate);
 
-                    command.ExecuteNonQuery();
+                    int changes = command.ExecuteNonQuery();
+
+                    if (changes == 0)
+                    {
+                        IsUpdated =  false;
+                    }
+                    else
+                    {
+                        IsUpdated = true;
+                    }
                 }
 
             }

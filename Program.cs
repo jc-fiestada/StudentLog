@@ -13,7 +13,99 @@ app.UseSession();
 app.UseRouting();
 app.UseStaticFiles();
 
+// Update specific student
 
+app.MapPost("/update-student", async (HttpContext context) =>
+{
+    // i kinda did copy pasted some parts here instead of making a reusable method instead but i am still not confident
+    // with httpcontext as a parameter so i might have to learn how to handle this properly later on
+    // and yeah i do kinda already want to move on to the next topic/project
+
+    Student? student;
+
+    // checks if json was able to be stored in student object, if not it might be corrupted
+    try
+    {
+        student = await context.Request.ReadFromJsonAsync<Student>();
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("[DEBUG] malformed json 1");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Corrupted or malformed json has been detected from client"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    // if null values have been detected, json must be missing a value or incomplete
+
+    if (student?.Name is null || student?.Sex is null || student?.BirthDate is null)
+    {
+        Console.WriteLine("[DEBUG] malformed json 2");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Corrupted, malformed, or a missing value from json has been detected from client"
+        };
+
+        return Results.Json(error, statusCode: 400);
+    }
+
+    // checks if values are acceptable for validation
+
+    if (student.ErrorList().Count() != 0)
+    {
+        Console.WriteLine("[DEBUG] invalid user input");
+        ResponseAPI<List<string>> error = new ResponseAPI<List<string>>
+        {
+            Message = "Invalid user input has been detected",
+            Data = student.ErrorList()
+        };
+
+        return Results.Json(error, statusCode: 422);
+    }
+
+    StudentDbServices service = new StudentDbServices();
+    bool IsUpdated;
+
+    try
+    {
+        service.UpdateStudent(student, out IsUpdated);
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("[DEBUG] db error");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Issue has been detected on servers database"
+        };
+
+        return Results.Json(error, statusCode: 500);
+    }
+
+
+
+    if (!IsUpdated)
+    {
+        Console.WriteLine("[DEBUG] db error, student was not updated");
+        ResponseAPI<string> error = new ResponseAPI<string>
+        {
+            Message = "Failed to update student"
+        };
+
+        return Results.Json(error, statusCode: 500);
+    }
+Console.WriteLine("[DEBUG] success");
+    
+    ResponseAPI<string> ok = new ResponseAPI<string>
+    {
+        Message = "Student has been successfully updated"
+    };
+
+    return Results.Json(ok, statusCode: 200);
+
+});
 
 // deletes specific student
 
@@ -177,7 +269,8 @@ app.MapPost("/insert-student", async (HttpContext context) =>
 });
 
 
-// AUTHENTICATE ADMIN ACTICE SESSION
+// AUTHENTICATE ADMIN ACTIVE SESSION
+// ts only works (or atleast just being used only) in dom, learn how to make ts into a function so i can reuse ts
 
 
 app.MapGet("/validate-admin-session", (HttpContext context) =>

@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s9sextd1xz</Fingerprint>
-      <Integrity>YBQ0WGlSYfWUh3jRhz8rXRwsz68HxDmnlDrwf9gJM2g=</Integrity>
+      <Fingerprint>xwclw42qzc</Fingerprint>
+      <Integrity>X3s+HJ/UUoDJZ+/fPkSQ2Dm/F6sW2PT/2cCBSDeWOew=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\Modals.js'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>08d5rrjnw1</Fingerprint>
-      <Integrity>MAmBYwfCpMcqmuSyLZi3zjI8CtThW83OKUOoVBAPeGE=</Integrity>
+      <Fingerprint>91pcx3p6hj</Fingerprint>
+      <Integrity>vcaBj5lftqsGNJjcb6mjM3P0JEJs8hFkp+7qjibfDQk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\services\ViewServices\ViewStudent.js'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1xy9pqki89</Fingerprint>
-      <Integrity>BTpm1GSTTARoZ4GD/kt45g+ILqXQdUUfVRlCumPnW6I=</Integrity>
+      <Fingerprint>fgqr5nskio</Fingerprint>
+      <Integrity>r18tHqVdG/46wOPqaj+RX7fnC0NR11bFmfkX3csSPRE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\tabs\view.html'))</OriginalItemSpec>
